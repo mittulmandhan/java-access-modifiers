@@ -2,14 +2,14 @@
 
 * The access modifiers in Java specifies the access level or scope of a resource i.e. variaables, method, constructor, or class.
 * It specifies how we can access a certain resource.
+* If you are overriding any method, overridden method (i.e. declared in subclass) must not be more restrictive.
 
 There are 4 access modifiers:-
 
-**1.)private
-2.)default
-3.)protected
-4.)public
-**
+**1.)private**
+**2.)default**
+**3.)protected**
+**4.)public**
 
 **1.)private:** 
 * 'private' is a keyword.
@@ -41,6 +41,7 @@ There are 4 access modifiers:-
 * If there exist a public class in a java source file then the file name must be same as public class' name.
 * Best practice is that main method should be inside public class(not forced).
 
+
 **To understand access modifiers in more depth take a look at this table**
 
 Access Modifier | within class | within package | outside package by subclass only | outside package
@@ -49,5 +50,6 @@ Access Modifier | within class | within package | outside package by subclass on
 **default**     |    yes       |      yes       |               no                 |      no        
 **protected**   |    yes       |      yes       |              yes                 |      no        
 **public**      |    yes       |      yes       |              yes                 |     yes        
+
 
 You can also see relevant codes in the repository.
